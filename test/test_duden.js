@@ -1,8 +1,8 @@
-const DudenSearchApi = require('../src/duden.js');
+const DudenSearchApi = require('../src/util/duden.js');
 
 var duden = new DudenSearchApi();
 
-duden.search( "winken" ).then( ( result ) => {
+duden.search( "Lachen" ).then( ( result ) => {
 	//console.log(result );
 } ).catch( ( error ) => {
 	console.log( error );
