@@ -83,7 +83,7 @@ module.exports = class ConjunctionExtractor {
         
         this.textSplitter(structure, textToParsePraesens, "ich", "du");
         this.textSplitter(structure, textToParsePraesens, "du", "er/sie/es");
-        this.textSplitter(structure, textToParsePraesens, "er/sie/es", "wir");0
+        this.textSplitter(structure, textToParsePraesens, "er/sie/es", "Plural");0
 
         var textToParsePraesens = text.substring(text.indexOf("Plural"), text.indexOf("Präteritum"));
         this.textSplitter(structure, textToParsePraesens, "wir", "ihr");
