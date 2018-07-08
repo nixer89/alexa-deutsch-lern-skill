@@ -1,0 +1,22 @@
+{
+  "name": "alexa-deutsch-lern-skill",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ../test/test_duden.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsdom": "^11.0.6",
+    "alexa-sdk": "^1.0.25",
+    "duden-search-api": "^1.0.3",
+    "global-tunnel": "^1.2.0",
+    "https-proxy-agent": "^2.2.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "node-fetch": "^2.1.2"
+  }
+}
